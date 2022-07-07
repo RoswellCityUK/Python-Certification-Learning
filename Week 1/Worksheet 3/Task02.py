@@ -1,5 +1,5 @@
 """
-Programming is asking User to enter his name and integer number
+Program is asking User to enter his name and integer number
 then print this name given number of times using While and For loops
 """
 
