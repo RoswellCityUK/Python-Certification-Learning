@@ -1,7 +1,7 @@
 """
 Program is creating Dictionary from two different Tuples as keys and values
 and then encrypts User message using this dictionary
-finally it decodes message
+finally it decodes the message
 """
 
 mykeys = ('A', 'B', 'C', 'D', 'E', 'F', 'G',
