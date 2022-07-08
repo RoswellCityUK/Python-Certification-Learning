@@ -31,3 +31,4 @@ for x in encoded_message.split(' '):
     decoded_message += list(mydictionary.keys())[list(mydictionary.values()).index(x)]
 
 print("Decoded message: " + decoded_message)
+
