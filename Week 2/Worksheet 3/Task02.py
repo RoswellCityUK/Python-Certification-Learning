@@ -8,14 +8,13 @@ Program should end with "End of code" regardless of the exceptions.
 
 
 def analyse(number):
-    a = ArithmeticError('Error: Number outside the range')
     try:
         number = float(number)
         if number < 0 or number > 10:
-            raise a
+            raise ArithmeticError('Error: Number outside the range')
     except ArithmeticError:
         print("ArithmeticError handled in function")
-        raise a
+        raise
 
 
 user_number = input("Enter number: ")
