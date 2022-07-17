@@ -52,7 +52,7 @@ x = Calculator('*', 6, 3)
 print(x.get_num1(), x.get_operator(), x.get_num2(), "=", x.get_result())
 
 
-x = Calculator('-', 10, 5)
+x = Calculator(Operator.MINUS, 10, 5)
 print(x.get_num1(), x.get_operator(), x.get_num2(), "=", x.get_result())
 
 
@@ -60,5 +60,5 @@ x = Calculator('+', 5, 12.4)
 print(x.get_num1(), x.get_operator(), x.get_num2(), "=", x.get_result())
 
 
-x = Calculator('/', 2, 6)
+x = Calculator(Operator.DIVIDE, 2, 6)
 print(x.get_num1(), x.get_operator(), x.get_num2(), "=", x.get_result())
